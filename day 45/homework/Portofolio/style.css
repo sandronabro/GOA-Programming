@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&family=Figtree:ital@0;1&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,700&family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,600;1,700;1,800&family=Open+Sans:wght@300;400;500;700&family=Outfit:wght@300;500;700&family=Poppins:wght@200;300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
+
+body{
+    margin: 0px;    
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #20242d;
+
+    height: 1000px;
+    margin: 0px;
+}
+
+nav {
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+    margin-top: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+a:hover{
+    color: #01eeff
+}
+
+a{
+    margin-left: 10px;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+}
+
+img{
+    float: right;
+    margin-right: 250px;
+    margin-top: 170px;
+    width: 550px;
+    border: 5px solid #01eeff;
+    box-shadow: 0 0 10px 5px #01eeff;
+    border-radius: 40px;
+    opacity: 0.7;
+}
+
+.info{
+    display: inline-block;
+    margin-top: 230px;
+    margin-left: 180px;
+    color: white;
+}
+
+.lorem{
+    color: rgb(197, 197, 197);
+    margin-top: 30px;
+    line-height: 1.7;
+}
+
+.info span{
+    color: #01eeff;
+}
+
+.name{
+    font-size: 60px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.info h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+i{
+    border: 2px solid #01eeff;
+    border-radius: 50%;
+    padding: 10px; 
+    font-size: 20px;
+    color: #01eeff;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+main{ 
+    background-color: #323846;
+    margin: 0px auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about{
+    margin-left: 250px;
+}
+
+h1{
+    margin: 0px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h2{
+    margin: 0px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+p{
+    margin: 0px;
+    color: rgb(197, 197, 197);
+    line-height: 1.5;
+}
+
+span{
+    color: #01eeff;
+}
+
+footer{
+    background-color: #20242d;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+}
+
+.contact-form {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #323846;
+    height: 30px;
+  }
+  .contact-form textarea {
+    height: 150px;
+  }
+  .contact-form input[type="submit"] {
+    width: 102%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #01eeff;
+    color: black;
+    cursor: pointer;
+    height: 50px
+  }
+
+.contact-form h2{
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding-top: 50px;
+    }
+
+    .navbar {
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info {
+        margin-top: 50px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    img {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .about {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        margin-top: 50px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .info {
+        margin-top: 50px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .about {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+

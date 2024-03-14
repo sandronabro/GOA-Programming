@@ -1,0 +1,22 @@
+.child1 { grid-area: header; }
+.child2 { grid-area: menu; }
+.child3 { grid-area: main; }
+.child4 { grid-area: right; }
+.child5 { grid-area: footer; }
+
+.parent-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: blue;
+  padding: 20px;
+}
+
+.parent-container div {
+  background-color: white;
+  padding: 30px 0;
+  font-size: 20px;
+}

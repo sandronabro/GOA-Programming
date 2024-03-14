@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="lined-container">
+        <div class="line line-left"></div>
+        <h2>Personal information</h2>
+        <div class="line line-right"></div>
+      </div>
+      <div>
+        <form id="f1">
+            <label for="input1"><span class="goBALD">* First name: </span></label>
+            <input type="text" required name="first_name" id="input1">
+            <br>
+            <br>
+            <label for="input2">Middle name: </label>
+            <input type="text" required name="middle_name" id="input2">
+            <br>
+            <br>
+            <label for="input3"><span class="goBALD">* Last name: </span></label> 
+            <input type="text" required name="last_name" id="input3">
+        </form>
+      </div>
+
+      <div class="lined-container">
+        <div class="line line-left"></div>
+        <h2>Address</h2>
+        <div class="line line-right"></div>
+      </div>
+      <div>
+       <form id="f2">
+        <label for="input4">Address:</label>
+        <input type="text" required name="address" id="input4">
+        <br>
+        <br>
+        <label for="input5">City or Town:</label>
+        <input type="text" required name="city" id="input5">
+        <br>
+        <br>
+        <label for="select1">State:</label>
+        <select id="select1">
+            <option value="none">Choose a state</option>
+        </select>
+        <br>
+        <br>
+        <label for="input6" class="goBALD">* Zip code:</label>
+        <input type="number" required name="zip" id="input6">
+       </form>
+      </div>
+    </form>
+</body>
+</html>

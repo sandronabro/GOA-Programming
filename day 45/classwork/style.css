@@ -1,0 +1,17 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+  
+.child{
+    flex: 1;
+    height: 100px;
+    background-color: blue;
+}
+  
+@media (max-width: 600px){
+    .parent{
+      flex-direction: column;
+    }
+}

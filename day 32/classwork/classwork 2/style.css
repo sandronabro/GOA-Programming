@@ -1,0 +1,47 @@
+footer, header, main {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(7, 7, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    background-color: rgb(7, 7, 7);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid rgb(176, 37, 25);
+    border-radius: 4px;
+    width: 800px;
+    background: none
+}
+
+input[type="submit"] {
+    background-color: rgb(176, 37, 25);
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(176, 37, 25);
+}
+
+h2{
+    color: white;
+}

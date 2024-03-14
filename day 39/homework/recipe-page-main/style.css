@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,700&family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,600;1,700;1,800&family=Outfit:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,700&family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,600;1,700;1,800&family=Outfit:wght@300;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,900&family=Young+Serif&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.inside{
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 15px;;
+    width: 35%;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    height: 1710px;
+}
+
+img{
+    margin-left: 24px;
+    margin-top: 25px;
+    width: 613px;
+    border-radius: 10px;
+}
+
+p, h2, h3, h1, ol, ul{
+    margin-left: 25px;
+    margin-right: 25px;
+    color: hsl(30, 10%, 34%);
+}
+
+.gray-line {
+    height: 1px;
+    background-color: #ccc;
+    width: 590px;
+    margin-left: 25px;
+}
+
+h2,h3{
+    color:hsl(14, 45%, 36%);
+}
+
+.time{
+    background-color: hsl(330, 100%, 98%);
+    margin-left: 24px;
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 613px;
+    height: 180px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.measures{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 220px;
+    margin-left: 30px;
+}
+
+.weight{
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+h1, h2, h3, h4{
+    font-family: 'Young Serif', serif;
+    font-weight: 400
+}
+
+.time h3{
+    font-family: 'Outfit', sans-serif;
+}
+
+li{
+    margin-top: 15px;
+}
+
+b{
+    color: hsl(24, 5%, 18%);
+}
+
+h1{
+    color: black;
+}
+
+h3 b{
+    color: hsl(332, 51%, 32%);
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

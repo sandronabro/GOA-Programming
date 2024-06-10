@@ -1,0 +1,45 @@
+
+.lined-container {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto; 
+  }
+  
+.line {
+    border-bottom: 1px solid rgb(150, 150, 150);
+    margin: 0 5px;
+  }
+  
+.line-left {
+    flex: 0.1;
+  }
+  
+.line-right {
+    flex: 1.5;
+  }
+  
+h2 {
+    margin: 0;
+    color: rgb(15, 50, 145);
+  }
+
+#f1, #f2 {
+    text-align: center;
+  }
+
+.goBALD{
+    font-weight: bold;
+}
+main{
+    text-align: right;
+}
+input, select{
+    width: 200px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}

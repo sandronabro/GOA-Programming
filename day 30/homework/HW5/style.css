@@ -1,0 +1,30 @@
+h1{
+    background-color: #464646;
+    color: white;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.input1, .input2, .input3, .input4 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, select {
+    margin-bottom: 10px;
+}
+
+.form1, .form2, .form3, .form4{
+    padding: 5px;
+    margin-left: 20px;
+}

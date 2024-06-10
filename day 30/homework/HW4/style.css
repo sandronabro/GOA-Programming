@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+span {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid rgb(159, 159, 159);
+    margin-top: 5px;
+}
+
+h3 {
+    float: right;
+    margin: 0;
+    font-size: 23px
+}
+
+.p1{
+    font-size: 18px;
+    color: gray;
+}
+
+#span1, #span2{
+    color: red; 
+    display: inline;
+    width: 20px;
+}
+
+form {
+    margin-left: 100px;
+  }
+
+  form label {
+    margin-bottom: 5px;
+  }
+
+form input,
+form textarea {
+  width: 250px;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-right: 100px;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: rgb(54,196,242);
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form textarea {
+    height: 150px;
+  }
+
+h1{
+    font-size: 50px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create User</h1>
+
+    <div class="form1">
+        <p>User</p>
+        <form>
+            <div class="input1">
+                <label for="input1">User Name</label><br>
+                <input id="input1" required name="name" type="text"><br>
+                <label for="input2">First Name</label><br>
+                <input id="input2" required name="first_name" type="text"><br>
+                <label for="input3">Last Name</label><br>
+                <input id="input3" required name="last_name" type="text"><br>
+                <label for="input4">Language</label><br>
+                <select id="input4">
+                    <option value="eng">English</option>
+                </select><br>
+            </div>
+        </form>
+    </div>
+
+    <div class="form2">
+        <p>Contact Information</p>
+        <form>
+            <div class="input2">
+                <label for="input5">Email</label><br>
+                <input type="email" id="input5" name="email" required><br>
+                
+                <label for="input6">Work Phone</label><br>
+                <input type="number" id="input6" name="workPhone" required><br>
+                
+                <label for="input7">Mobile Phone</label><br>
+                <input type="number" id="input7" name="mobilePhone" required><br>
+                
+                <label for="input8">Notification Preference</label><br>
+                <input type="checkbox" id="emailCheckbox" name="emailNotification">
+                <label for="emailCheckbox">Email</label>
+                <input type="checkbox" id="smsCheckbox" name="smsNotification">
+                <label for="smsCheckbox">SMS</label>
+            </div>
+        </form>
+    </div>
+
+    <div class="form3">
+        <p>Security</p>
+        <form>
+            <div class="input3">
+                <label for="input10">Password</label><br>
+                <input type="password" required name="Password" id="input10"><br>
+                <label for="input11">Confirm Password</label><br>
+                <input type="password" required name="conf_password" id="input11"><br>
+            </div>
+        </form>
+    </div>
+
+    <div class="form4">
+        <p>Role Assignment</p>
+        <form>
+            <div class="input4">
+                <p id="p4">Role Assignment</p>
+                <div class="role_assignment">
+                    <p id="p5">Roles</p>
+                    <div>
+                        <p id="p6">Controls Engineer</p>
+                        <p id="p7">Maintenance Engineer</p>
+                        <p id="p8">Maintenance Manager</p>
+                        <p id="p9">Production Manager</p>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

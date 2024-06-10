@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    color: #fff;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: gray;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.cta-button:hover {
+    background-color: rgb(110, 110, 110);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-radius: 5px;
+}
+
+li {
+    margin: 0;
+}
+
+a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    }
+#logo, nav {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    cursor: pointer;
+    }
+
+    .contact-form {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    background: #f8f8f8;
+    border-radius: 5px;
+}
+.contact-form h2 {
+    text-align: center;
+    color: #000; 
+}
+.contact-form input[type="text"], .contact-form input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+.contact-form input[type="submit"] {
+    background-color: #000; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+.contact-form input[type="submit"]:hover {
+    background-color: #808080;
+}
+
+h2{
+    text-align: center;
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,700&family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,900&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.product {
+    display: flex;
+    background-color: white;
+    border-radius: 2%;
+    width: 650px;
+    margin: 310px;
+    height: 500px;
+}
+
+.product-image {
+    margin-right: 20px;
+}
+
+p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 23px
+}
+
+img{
+    width: 334px;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+h1{
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.price-container{
+    display: flex;
+    align-items: center;
+}
+
+h1, p {
+    margin-right: 20px;
+}
+
+.price-container p{
+    text-decoration: line-through;
+    text-decoration-color: hsl(228, 12%, 48%);
+}
+
+.price-container h1{
+    color: hsl(158, 36%, 37%);
+}
+
+.product-info{
+    margin-top: 25px;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 17px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button svg{
+    margin-right: 10px;
+}
+
+button:hover{
+    background-color: hsl(158, 36%, 30%);
+}
+
+#gabrielle{
+    margin-left: 20px;
+}
+
+p, h1, button{
+    margin-left: 15px;
+}

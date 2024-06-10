@@ -1,0 +1,172 @@
+body {
+    background: linear-gradient(to bottom, #370b6f, #00429b, #006dba, #0095ce, #2dbcdc);
+    height: 1020px;
+    font-family: 'Catamaran', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #735deb;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.shape{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.text {
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 240px;
+    color: white;
+    animation: fadeInUp 1s ease;
+}
+
+.text h1 {
+    font-size: 68px;
+    font-family: 'Dosis', sans-serif;
+    animation: slideInLeft 1s ease;
+}
+
+i{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 24px;
+    color: white
+}
+
+
+.text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    animation: fadeInUp 1s ease;
+}
+
+.text button {
+    margin-right: 20px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.text button:hover {
+    background-color: #735deb;
+    color: white;
+}
+
+.image {
+    float: right;
+    margin-right: 290px;
+    margin-top: 170px;
+    animation: fadeInRight 1s ease;
+}
+
+.support{
+    color: white;
+	width: 160px;
+	height: 45px;
+	border-radius: 5px;
+	background-color: #735deb;
+	border: none;
+    font-weight: bold;
+    transition: transform 1s ease;
+}
+
+.wht-btn{
+    color: #735deb;
+	width: 150px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: white;
+	border: none;
+    font-weight: bold;
+}
+
+.prp-btn{
+    color: white;
+	width: 150px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #5944cd;
+	border: none;
+    font-weight: bold;
+}
+
+.text button{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

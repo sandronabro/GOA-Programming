@@ -33,3 +33,5 @@ def difference_of_squares(n):
     substaction = square_sum - sum_square
     
     return abs(substaction)
+
+print("done")

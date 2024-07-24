@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto";
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid-container {
+            width: 80%;
+            height: 700px;
+            display: grid;
+            grid-template-columns: 3.5fr 5fr;
+            grid-template-rows: repeat(6, 1fr);
+            padding: 10px;
+            gap: 10px;
+            margin-top: 100px;
+        }
+
+        .container1,
+        .container2,
+        .container3,
+        .container4 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .container1>div,
+        .container2>div,
+        .container3>div,
+        .container4>div {
+            border: 1px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        .container1>.item1 {
+            background-color: #9ECCE0;
+        }
+
+        .container1>.item2 {
+            background-color: #E8858F;
+        }
+
+        .container1>.item3 {
+            background-color: #81C7B6;
+        }
+
+        .container1>.item4 {
+            background-color: #F7E372;
+        }
+
+        .container2>.item5 {
+            background-color: #9ECCE0;
+        }
+
+        .container2>.item6 {
+            background-color: #E8858F;
+        }
+
+        .container2>.item7 {
+            background-color: #81C7B6;
+        }
+
+        .container2>.item8 {
+            background-color: #F7E372;
+        }
+
+        .container3>.item9 {
+            background-color: #B185BA;
+        }
+
+        .container3>.item10 {
+            background-color: #9ECCE0;
+        }
+
+        .container3>.item11 {
+            background-color: #81C7B6;
+        }
+
+        .container3>.item12 {
+            background-color: #E8858F;
+        }
+
+        .container3>.item13 {
+            background-color: #F7E372;
+        }
+
+        .container4>.item14 {
+            background-color: #B185BA;
+        }
+
+        .container4>.item15 {
+            background-color: #9ECCE0;
+        }
+
+        .container4>.item16 {
+            background-color: #81C7B6;
+        }
+
+        .container4>.item17 {
+            background-color: #E8858F;
+        }
+
+        .container4>.item18 {
+            background-color: #F7E372;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="container1">
+            <div class="item1">Percussion, 2</div>
+            <div class="item2">Brass, 2</div>
+            <div class="item3">Woodwinds, 2</div>
+            <div class="item4">Strings, 2</div>
+        </div>
+        <div class="container2">
+            <div class="item5">Percussion, 1</div>
+            <div class="item6">Brass, 1</div>
+            <div class="item7">Woodwinds, 2</div>
+            <div class="item8">Strings, 6</div>
+        </div>
+        <div class="container3">
+            <div class="item9">Keyboards, 1</div>
+            <div class="item10">Percussion, 1</div>
+            <div class="item11">Woodwinds, 3</div>
+            <div class="item12">Brass, 1</div>
+            <div class="item13">Strings, 14</div>
+        </div>
+        <div class="container4">
+            <div class="item14">Keyboards, 1</div>
+            <div class="item15">Percussion, 1</div>
+            <div class="item16">Woodwinds, 4</div>
+            <div class="item17">Brass, 2</div>
+            <div class="item17">Strings, 16</div>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .grid-container {
+        display: grid;
+        gap: 10px;
+        height: 100vh;
+      }
+
+      .grid-item {
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .item1 {
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 4;
+        background-color: rgb(231, 81, 106);
+      }
+
+      .item2 {
+        grid-column: 1 / span 2;
+        grid-row: 5 / span 15;
+        background-color: rgb(72, 235, 235);
+      }
+
+      .item3{
+        grid-column: 3;
+        grid-row: 5 / span 16;
+        background-color: rgb(0, 228, 0);
+      }
+
+      .item4 {
+        grid-column: 1 / span 2;
+        grid-row: 20 / span 1;
+        background-color: rgb(236, 236, 68);
+      }
+
+      @media screen and (max-width:900px) {
+        .item1{
+            grid-column: 1 / span 3;
+            grid-row: 1 / span 1;
+        }
+
+        .item2{
+            grid-column: 1 / span 3;
+            grid-row: 2 / span 15;
+        }
+
+        .item3{
+            grid-column: 1 / span 3;
+            grid-row: 17 / span 1
+        }
+
+        .item4{
+            grid-column: 1 / span 3;
+            grid-row: 18 / span 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item item1">title</div>
+      <div class="grid-item item2">content</div>
+      <div class="grid-item item3">aside</div>
+      <div class="grid-item item4">footer</div>
+    </div>
+  </body>
+</html>
